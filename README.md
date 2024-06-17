@@ -7,7 +7,7 @@ Branimir - R004 - Alumni sekcija
 
 Luka - R016 - Online tečajevi
 
-Ivan - R001
+Ivan - R001 - Online knjižnica
 
 Mateo - R003 - Sekcije za svaki smjer
 
