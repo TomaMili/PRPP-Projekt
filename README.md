@@ -3,7 +3,7 @@
 Toma - R006
 -Interaktivni elementi i mape kampusa
 
-Branimir - R004
+Branimir - R004 - Alumni sekcija
 
 Luka - R016 - Online tečajevi
 
