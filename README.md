@@ -1,7 +1,6 @@
 # PRPP-Projekt
 
-Toma - R006
--Interaktivni elementi i mape kampusa
+Toma - R006 - Interaktivni elementi i mape kampusa
 
 Branimir - R004 - Alumni sekcija
 
@@ -11,4 +10,4 @@ Ivan - R001 - Online knjižnica
 
 Mateo - R003 - Sekcije za svaki smjer
 
-Karlo - R000
+Karlo - R013 - Profilne stranice nastavnika
