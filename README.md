@@ -1,6 +1,7 @@
 # PRPP-Projekt
 
-Toma - R000
+Toma - R006
+-Interaktivni elementi i mape kampusa
 
 Branimir - R004
 
