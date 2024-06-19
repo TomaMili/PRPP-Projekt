@@ -21,16 +21,22 @@ document.addEventListener("DOMContentLoaded", function () {
   const newsItemsContainer = document.getElementById("news-items");
   const newsItems = [
     {
-      title: "News Item 1",
-      content: "Content for news item 1",
+      title:
+        "Predstavljanje obnovljenih prostora na Znanstveno-učilišnom kampusu Boronogaj",
+      content:
+        "Tehničko veleučilište u Zagrebu je uz potporu Ministarstva znanosti i obrazovanja, kao i iz vlastitih sredstava uredilo 2000m2 prostora za nastavu na Znanstveno-učilišnom kampusu Borongaj. Suvremeno uređeni prostor namjenjen je za nastavu studentima Informatičko računarskog odjela. Studenti informatike i računarstva često se smatraju najboljim inovatorima jer akumuliraju multidisciplinarna znanja.",
     },
     {
-      title: "News Item 2",
-      content: "Content for news item 2",
+      title:
+        "Dekanici TVZ-a prof. dr. sc. Jani Žiljak Gršić nagrada za povezivanje znanosti i poslovanja",
+      content:
+        "U Zagrebu, 24. studenog 2023. Vodstvo i članovi udruge MBA Croatia s ponosom izvještavaju o uspješnom održavanju šeste godišnje dodjele nagrada – MBA Awards Gala. Večer, koja je okupila preko 150 poslovnih lidera, članova udruge MBA Croatia, posebnih gostiju i podržavatelja, obilježena je dodjelom prestižnih nagrada, čime smo istaknuli izniman doprinos pojedinaca u raznim područjima.",
     },
     {
-      title: "News Item 3",
-      content: "Content for news item 3",
+      title:
+        "Zaposlenik i studenti sudjelovali na ovogodišnjem izdanju WRC Croatia rally 2024",
+      content:
+        "Na ovogodišnjem izdanju WRC Croatia rally 2024 su sudjelovali zaposlenik Elektrotehničkog odjela Goran Vujisić kao zamjenik direktora i voditelj sigurnosti natjecanja te kao natjecatelj je sudjelovao student Mehatronike Jan Pokos. S velikim zadovoljstvom možemo konstatirati da su i studenti TVZ-a sudjelovali u ovogodišnjoj organizaciji WRC Croatia rally-a na brzinskim ispitima te servisnom prostoru kod West Gate-a.",
     },
   ];
 

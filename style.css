@@ -113,13 +113,13 @@ nav ul .nested-dropdown {
   display: flex;
   justify-content: space-around;
   padding: 20px;
+  flex-basis: auto;
 }
 
 .studies,
 .news {
   width: 45%;
 }
-
 .studies h2,
 .news h2 {
   font-size: 1.5em;
@@ -136,7 +136,7 @@ nav ul .nested-dropdown {
 
 .studies article div {
   width: 45%;
-  height: 30rem;
+  height: 38rem;
 }
 
 .preddip_img {
@@ -177,6 +177,11 @@ nav ul .nested-dropdown {
   flex-wrap: wrap;
   gap: 10px;
   margin-top: 10px;
+  text-align: center;
+}
+
+.news-items h3 {
+  font-weight: 600;
 }
 
 .news-items div {
@@ -193,7 +198,6 @@ footer {
   padding: 20px;
   position: relative;
   bottom: 0;
-  width: 100%;
 }
 /* Existing CSS styles */
 
