@@ -9,12 +9,20 @@ document.addEventListener("DOMContentLoaded", function () {
   // Load slides data from external file (or define it here)
   function loadSlidesData() {
     slidesData = [
-      { id: 1, title: "Kolegij 1", image: "img/Alumni.jpg" },
-      { id: 2, title: "Kolegij 2", image: "img/studenti45-2.png" },
-      { id: 3, title: "Kolegij 3", image: "img/Alumni.jpg" },
-      { id: 4, title: "Kolegij 4", image: "img/studenti45-2.png" },
-      { id: 5, title: "Kolegij 5", image: "img/Alumni.jpg" },
-      { id: 6, title: "Kolegij 6", image: "img/studenti45-2.png" },
+      { id: 1, title: "Matematika 1", image: "img/mtm_kolegij.jpg" },
+      { id: 2, title: "Osnove programiranja", image: "img/prog_kolegij.jpg" },
+      {
+        id: 3,
+        title: "Primjena HTML i CSS tehnologija",
+        image: "img/hmtl_kolegij.jpeg",
+      },
+      { id: 4, title: "Uredsko poslovanje", image: "img/uredsko_kolegij.jpg" },
+      {
+        id: 5,
+        title: "Uvod u digitalno poslovanje",
+        image: "img/dig_kolegij.webp",
+      },
+      { id: 6, title: "Kineziološka kultura I", image: "img/tzk_kolegij.jpg" },
     ];
     renderSlides();
   }
