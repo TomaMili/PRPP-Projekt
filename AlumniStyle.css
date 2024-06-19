@@ -1,0 +1,54 @@
+.container {
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #fff; /* Dodatni razmak ispod navigacije */
+    text-align: center;
+
+  }
+  .alumni-info{
+    padding: 30px;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  p {
+    margin-right: 10px;
+    padding-top: 80px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+ .Slika {
+    background-image: url(img/Alumni.jpg);
+  }
+  
+
+  .alumni-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 100px;
+
+}
+
+.alumni-buttons button {
+    padding: 30px 50px;
+    margin: 0 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.alumni-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.AlumniSlika {
+    max-width: 40%;
+}
