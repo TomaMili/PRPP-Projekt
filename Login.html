@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="https://kit.fontawesome.com/5b675e77b1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="LoginStyle.css">
+    <link rel="icon" href="img/TVZ-logo-v2.png" sizes="32x32" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="top-bar">
+            <a href="index.html">
+                <img src="img/tvz_znak_150.png" alt="TVZ Logo" class="logo"></a>
+            <nav>
+                <ul id="nav-menu">
+                    <li>
+                        <a href="#"><i class="fa-solid fa-graduation-cap"></i>&nbsp;STUDIJI I STUDENTI&nbsp;<i
+                                class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown">
+                            <li class="drop-h"><a href="#">St. prijediplomski&nbsp;<i
+                                        class="fa-solid fa-chevron-down"></i></a>
+                                <ul class="nested-dropdown dropdown">
+                                    <li><a href="#">Elektrotehnika</a></li>
+                                    <li><a href="#">Graditeljstvo</a></li>
+                                    <li><a href="#">Informatika</a></li>
+                                    <li><a href="#">Mehatronika</a></li>
+                                    <li><a href="#">Rečunarstvo</a></li>
+                                    <li><a href="#">Strojarstvo</a></li>
+                                </ul>
+                            </li>
+                            <li class="drop-h"><a href="#">Stručni diplomski&nbsp;<i
+                                        class="fa-solid fa-chevron-down"></i></a>
+                                <ul class="nested-dropdown dropdown">
+                                    <li><a href="#">Digitalna ekonomija</a></li>
+                                    <li><a href="#">Digitalna forenzika</a></li>
+                                    <li><a href="#">Elektrotehnika</a></li>
+                                    <li><a href="#">Graditeljstvo</a></li>
+                                    <li><a href="#">Informatika</a></li>
+                                    <li><a href="#">Strojarstvo</a></li>
+                                </ul>
+                            </li>
+                            <li class="drop-h"><a href="#">Online tečajevi&nbsp;<i
+                                        class="fa-solid fa-chevron-down"></i></a>
+                                <ul class="nested-dropdown dropdown">
+                                    <li><a href="#">Svi tečajevi</a></li>
+                                    <li><a href="#">Certifikati</a></li>
+                                    <li><a href="#">Moji tečajevi</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-book"></i>&nbsp;@TVZ&nbsp;<i
+                                class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown">
+                            <li><a href="#">Alumni TVZ</a></li>
+                            <li class="drop-h"><a href="#">Online knjižnica&nbsp;<i
+                                        class="fa-solid fa-chevron-down"></i></a>
+                                <ul class="nested-dropdown dropdown">
+                                    <li><a href="Knjige.html">Popis knjiga</a></li>
+                                    <li><a href="Casopisi.html">Popis časopisa</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Studenski zbor</a></li>
+                            <li><a href="#">Udruga inovatora</a></li>
+                            <li><a href="#">Sportska udruga TVZ</a></li>
+                            <li><a href="#">Moj TVZ</a></li>
+                            <li><a href="#">Sustav za e-učenje</a></li>
+                            <li><a href="#">TVZ WebMail</a></li>
+                            <li><a href="#">Savjetovalište</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-maximize"></i>&nbsp;NETAKADEMIJA&nbsp;<i
+                                class="fa-solid fa-chevron-down"></i></a>
+                    </li>
+                    <li><a href="#"><i class="fa-regular fa-file-lines"></i>&nbsp;NOVOSTI</a></li>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-circle-info"></i>&nbsp;O NAMA&nbsp;<i
+                                class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown">
+                            <li><a href="#">Lokacije</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="search">
+                <input type="text" id="search-input" placeholder="Pretraga...">
+                <button id="search-button">Search</button>
+            </div>
+            <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+        </div>
+    </header>
+    <div class="login-container">
+        <form action="#" method="POST" class="login-form">
+            <h2>Prijava</h2>
+            <div class="form-group">
+                <label for="username">Email:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Lozinka:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
