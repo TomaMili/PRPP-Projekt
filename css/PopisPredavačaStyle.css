@@ -1,0 +1,44 @@
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+main {
+  margin-top: 60px;
+}
+h1,
+h3 {
+  text-align: center;
+}
+
+.profesori-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.profesori {
+  width: 20%;
+  min-height: 400px;
+}
+.profesori a {
+  text-decoration: none;
+}
+.slika_prof {
+  width: 100%;
+  background-color: rebeccapurple;
+  min-height: 340px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#nozica {
+  background-image: url(../img/bojan.jpeg);
+}
+#roman {
+  background-image: url(../img/roman.jpeg);
+}
+#sanja {
+  background-image: url(../img/sanja.jpg);
+}
+.opis_prof {
+  text-align: center;
+}
