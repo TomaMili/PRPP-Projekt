@@ -56,3 +56,18 @@ document.addEventListener("DOMContentLoaded", function () {
     newsItemsContainer.appendChild(newsItemDiv);
   });
 });
+
+// Pop-up
+
+document.getElementById("openPopupBtn").addEventListener("click", function () {
+  document.getElementById("popupContainer").classList.remove("hidden");
+  document.getElementById("popupContainer").style.display = "flex";
+});
+document.getElementById("openPopupBtn2").addEventListener("click", function () {
+  document.getElementById("popupContainer").classList.remove("hidden");
+  document.getElementById("popupContainer").style.display = "flex";
+});
+document.getElementById("closePopupBtn").addEventListener("click", function () {
+  document.getElementById("popupContainer").classList.add("hidden");
+  document.getElementById("popupContainer").style.display = "none";
+});

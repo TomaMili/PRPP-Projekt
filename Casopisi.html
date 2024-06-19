@@ -68,7 +68,7 @@
                             <li class="drop-h"><a href="#">Online knjižnica&nbsp;<i
                                         class="fa-solid fa-chevron-down"></i></a>
                                 <ul class="nested-dropdown dropdown">
-                                    <li><a href="#">Popis knjiga</a></li>
+                                    <li><a href="Knjige.html">Popis knjiga</a></li>
                                     <li><a href="Casopisi.html">Popis časopisa</a></li>
                                 </ul>
                             </li>
@@ -104,7 +104,7 @@
     </header>
 
     <div class="container">
-            <h1>Popis Časopisa</h1>
+        <h1>Popis Časopisa</h1>
         <div class="image-placeholder">
             <table class="custom-table">
                 <table class="custom-table">
@@ -193,9 +193,17 @@
                 </table>
         </div>
         <div class="buttons">
-            <button class="upload-btn">UPLOAD</button>
-            <button class="remove-btn">REMOVE</button>
+            <button class="upload-btn" id="openPopupBtn">UPLOAD</button>
+            <button class="remove-btn" id="openPopupBtn2">REMOVE</button>
+        </div>
+        <div id="popupContainer" class="hidden">
+            <div class="popupContent">
+                <span id="closePopupBtn" class="closeBtn">&times;</span>
+                <p>Work in progress!</p>
+            </div>
         </div>
     </div>
+
+    <script src="script.js"></script>
 
 </html>
