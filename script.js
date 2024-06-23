@@ -71,3 +71,9 @@ document.getElementById("closePopupBtn").addEventListener("click", function () {
   document.getElementById("popupContainer").classList.add("hidden");
   document.getElementById("popupContainer").style.display = "none";
 });
+document
+  .getElementById("closePopupBtn2")
+  .addEventListener("click", function () {
+    document.getElementById("popupContainer").classList.add("hidden");
+    document.getElementById("popupContainer").style.display = "none";
+  });

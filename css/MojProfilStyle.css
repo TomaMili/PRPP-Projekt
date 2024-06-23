@@ -1,70 +1,115 @@
 .container {
-    width: 80%;
-    height: 600px;
-    margin: 0 auto;
-    background-color: #fff; /* Dodatni razmak ispod navigacije */
-    text-align: center;
-  }
-  .Slika {
-    max-width: 60%;
-  }
-  .SlikaProjekt {
-    max-width: 40%;
-  }
-  .Projekt-Slika{
-    display: inline-flex;
-    justify-content: center;
-    gap: 100px;
-  }
-  .alumni-buttons {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    gap: 500px;
-  }
-  .ime-prezime{
-    font-size: 30px;
-    text-align:center;
-  }
-.opis{
-    text-align:justify;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff; /* Dodatni razmak ispod navigacije */
+  text-align: center;
+  padding-bottom: 40px;
 }
-  .MojProfil {
-    padding-right: 50px;
-    display:inline-flex;
-    width: 50%;
-    margin: 0 auto;
-  }
-  .alumni-buttons button {
-    padding: 30px 50px;
-    margin: 0 10px;
-    font-size: 16px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    background-color: #007bff;
-    color: #fff;
-    transition: background-color 0.3s ease;
-  }
-  .alumni-buttons button:hover {
-    background-color: #0056b3;
-  }
+.Slika {
+  max-width: 60%;
+}
+.SlikaProjekt {
+  max-width: 40%;
+}
+.Projekt-Slika {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-bottom: 70px;
+}
+.Projekt-Slika div {
+  width: 20%;
+}
 
-  footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    position: relative;
-    bottom: 0;
-    margin: 0;
-  }
-  footer p,
-  footer h3 {
-    color: gray;
-    font-weight: 200;
-  }
-  footer hr {
-    border: gray 0.5px solid;
-  }
+.Projekt-Slika div h3 {
+  font-weight: 600;
+}
+
+.opis_text {
+  padding: 0 30px;
+  text-align: center;
+}
+.alumni-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  gap: 500px;
+}
+.ime-prezime {
+  font-size: 30px;
+  text-align: center;
+}
+.opis {
+  text-align: justify;
+}
+.MojProfil {
+  padding-right: 50px;
+  display: inline-flex;
+  width: 50%;
+  margin: 0 auto;
+}
+.alumni-buttons button {
+  padding: 30px 50px;
+  margin: 0 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+.alumni-buttons button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  margin: 0;
+}
+footer p,
+footer h3 {
+  color: gray;
+  font-weight: 200;
+}
+footer hr {
+  border: gray 0.5px solid;
+}
+
+#popupContainer {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  justify-content: center;
+  align-items: center;
+}
+
+.popupContent {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.closeBtn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
